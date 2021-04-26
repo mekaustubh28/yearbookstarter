@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+  background-color: #28223f;
+  font-family: Montserrat, sans-serif;
+}
+
+.Header{
+  text-align: center;
+  font-size: 100px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.card-container {
+  background-color: #231e39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  width: 350px;
+  max-width: 100%;
+  margin: 0% 5% 5% 5%;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1512px){
+  .card-container{
+    margin-left:15%;
+  }
+}
+
+@media screen and (max-width: 1190px){
+  .card-container{
+    margin-left:10%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .card-container{
+    margin-left:30%;
+  }
+}
+
+
+.card-container .round {
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 3px;
+  width: 150px;
+  height: 150%;
+}
+
+button.profile {
+  cursor: pointer;
+  background-color: #03bfcb;
+  border: 3px solid #03bfcb;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+.skills {
+  background-color: #1f1a36;
+  text-align: left;
+  padding: 2px;
+  margin-top: 30px;
+}
+.skills div {
+  margin: 0;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills div a {
+  font-size: 35px;
+  padding: 7px;
+  /* margin: 0 10% 0 10%; */
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.skills div a svg{
+  /* background-color: red; */
+  border: 1px solid #453b70;
+  border-radius: 4px;
+  font-size: 35px;
+  padding: 3px;
+}
